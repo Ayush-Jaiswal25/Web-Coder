@@ -1,0 +1,31 @@
+.heroBox2{
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  height: 98vh;
+  width: 49.8%;
+  margin-top: 0.5rem;
+  align-items: end;
+  border-radius: 2rem;
+  box-shadow: 0.1px 0.1px 2px white;
+  overflow: hidden;
+}
+
+.heroBox2-h2, .heroBox2-h5, .heroBox2-p{
+  margin-left: 3rem;
+}
+.heroBox2-h2{
+  color: white;
+}
+.heroBox2-img{
+  margin-left: 3rem;
+  border-top-left-radius: 1.8rem;
+  height: 70vh;
+}
+
+@media (max-width: 415px){
+  .heroBox2{
+    height: 30%;
+    width: 98%;
+  }
+}

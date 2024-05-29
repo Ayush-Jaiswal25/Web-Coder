@@ -1,0 +1,122 @@
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hero-section{
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  width: 100vw;
+  /* border: 2px solid green; */
+}
+.sub-hero-left{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 98%;
+  width: 49.8%;
+  margin-top: 0.5rem;
+  /* border: 2px solid red; */
+}
+.SHLD{
+  height: 43%;
+  width: 48.2%;
+  margin-top: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: 0.1px 0.1px 2px white;
+}
+.SHLD-h4, .SHLD-h2{
+  margin-top: 2rem;
+  margin-left: 2.5rem !important ;
+}
+.SHLD-p, .SHLD-button{
+  margin-left: 2.5rem ;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.SHLD-p{
+  margin-top: 1.5rem;
+}
+.SHLD-button{
+  font-size: 1rem;
+  margin-top: 1rem;
+  padding: 0.8rem 1.6rem;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.sub-hero-left-down-right{
+  margin-left: 0.6rem;
+  background-image: linear-gradient(200deg, black 60%,  aqua 150%);
+}
+.sub-hero-left-down-right button{
+  color: aqua;
+  border: 1px solid white;
+  background-image: linear-gradient(160deg, #383738 1%,  #000000 99%);
+}
+
+.lower-hero{
+  display: flex;
+}
+.lower-hero-left{
+  height: 55vh;
+  width: 64vw;
+  margin-right: 0.5rem;
+  border: 1px solid white;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-image: linear-gradient(20deg, black 60%,  aqua 140%);
+}
+.lower-hero-left-h1{
+  margin-left: 3rem;
+  font-size: 4rem;
+  color: white;
+  margin-bottom: 1rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-lower-hero-left{
+  display: flex;
+}
+.SSinsta{
+  border-top-right-radius: 1.5rem;
+}
+.sub-lower-hero-left-h2{
+  display: flex;
+  margin-left: 3rem;
+  width: 7.8rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sub-lower-hero-left-h2 .upRight{
+  border-radius: 0rem;
+  position: relative;
+  right: 1rem;
+  height: 2rem;
+  cursor: pointer;
+}
+
+@media (max-width: 415px){
+  .hero-section{
+    height: 200vh;
+  }
+  .sub-hero-left{
+    height: 60%;
+    width: 98%;
+  }
+  .SHLD{
+    height: 30%;
+    width: 98%;
+  }
+  .SHLD-h2{
+    /* margin-top: 3rem; */
+  }
+  .SHLD-button{
+    margin-top: 2rem;
+  }
+  .sub-hero-left-down-right{
+    margin-left: 0rem;
+    background-image: linear-gradient(200deg, black 60%,  aqua 150%);
+  }
+  .lower-hero-left{
+    display: none;
+  }
+}

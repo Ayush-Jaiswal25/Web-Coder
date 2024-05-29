@@ -1,0 +1,27 @@
+.work{
+    width: 100vw;
+    color: white;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    padding-left: 0.5rem;
+}
+.workHero{
+    margin-top: 0.5rem;
+    height: 50vh;
+    width: 98%;
+    box-shadow: 0.1px 0.1px 2px white;
+    border-radius: 2rem;
+    background-image: linear-gradient(160deg, #302f30 1%,  #000000 99%);   
+}
+.workHero h1{
+    margin-left: 2rem;
+    margin-top: 5rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.workHero p{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    width: 40%;
+}
+

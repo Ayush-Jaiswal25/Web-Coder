@@ -1,0 +1,25 @@
+@font-face{
+    font-family: title;
+    src: url(/src/assets/Stencilia-A.ttf)
+}
+.body{
+    font-family: title;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    width: 100vw;
+    color: white;
+    background-color: rgb(16, 16, 16);
+}
+.slideUp{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(250, 94, 3);
+    background-color: black;
+    z-index: 100;
+    position: absolute;
+}

@@ -1,0 +1,27 @@
+.heroBlog1{
+  height: 55vh;
+  width: 35vw;
+  background-image: linear-gradient(60deg, #ffffff 60%,  #1ca98b 100%);
+  border-radius: 2rem;
+}
+.heroBlog1-h3, .heroBlog1-h1, .heroBlog1-img{
+  color: black;
+  margin-left: 3rem;
+}
+.heroBlog1-h3{
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+.heroBlog1-img{
+  margin-top: 2.5rem;
+  font-size: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 415px){
+  .heroBlog1{
+    width: 98%;
+  }
+}
