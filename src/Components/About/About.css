@@ -3,11 +3,13 @@
   src: url(/src/assets/Stencilia-A.ttf)
 }
 .profile{
-  height: 230vh;
+  height: 150vh;
   width: 100vw;
   background-color: rgb(16, 16, 16);
   display: flex;
   flex-wrap: wrap;
+  /* border: 2px solid red; */
+  margin-bottom: 18rem;
 }
 .subProfile{
   height: 100%;
@@ -184,4 +186,46 @@
   /* left: 2rem; */
   height: 25rem;
   /* rotate: 20deg; */
+}
+
+@media (max-width: 415px){
+  .profile{
+    margin-top: 4rem;
+  }
+  .devBox{
+    width: 95vw;
+  }
+  .H_description{
+    margin-top: 0rem;
+    margin-left: 1rem;
+    width: 40rem;
+    padding: 0.5rem 0.2rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .blogs1, .blogs2{
+    display: none;
+  }
+  .Hsocial_icon{
+    bottom: 0rem;
+    left: 9rem;
+  }
+  .Dev-A-box{
+    margin-top: 3rem;
+  }
+  .A_Profile{
+    position: relative;
+    left: 2rem;
+    bottom: 22rem;
+  }
+  .A_description{
+    position: relative;
+    top: 22rem;
+    margin-left: -1.5rem;
+  }
+  .Asocial_icon{
+    position: relative;
+    left: 8rem;
+    bottom: 3rem;
+  }
 }
