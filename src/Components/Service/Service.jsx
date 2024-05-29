@@ -27,13 +27,13 @@ function Service() {
         <h4>A portfolio website is a curated, online space that showcases your best work. It's one of the most practical and memorable ways to share your work.</h4>
       </div>
 
-      <div className="serviceoffer serleft">
+      <div className="serviceoffer serviceoffer3 serleft">
         <img src={DynamicWeb} alt="" />
         <h1>Dynamic Website</h1>
         <h4>A dynamic website is a site that generates pages in real time, responding to dynamic characteristics such as user input and past actions. The structure and content of a dynamic web page are flexible, allowing you to customize the end-user’s experience based on the users request.</h4>
       </div>
 
-      <div className="serviceoffer serright">
+      <div className="serviceoffer serviceoffer4 serright">
         <img src={EcomWeb} alt="" />
         <h1>E-Commerce Website</h1>
         <h4>An e-commerce website is one that allows people to buy and sell physical goods, services, and digital products over the internet. It can be the best way to expand your business. </h4>

@@ -58,15 +58,20 @@
 }
 
 @media (max-width: 415px){
+  .bblogs{
+    margin-top: 4rem;
+    padding-left: 0rem;
+  }
   .blogsHero{
+    margin-left: 0.5rem;
     height: 45vh;
-    width: 98%;
+    width: 96%;
     margin-right: 0rem;
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
   }
   .BHblogs2{
-    width: 98%;
+    width: 96%;
     margin-top: 1rem;
-    margin-left: 0rem;
+    margin-left: 0.5rem;
   }
 }
