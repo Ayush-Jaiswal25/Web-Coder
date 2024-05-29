@@ -25,3 +25,19 @@
     width: 40%;
 }
 
+@media (max-width: 415px){
+    .work{
+        margin-top: 4rem;
+        padding-left: 0rem;
+    }
+    .workHero{
+        margin-left: 0.5rem;
+        height: 40vh;
+        width: 96%;
+    }
+    .workHero p{
+        margin-top: 1.5rem;
+        margin-left: 2rem;
+        width: 80%;
+    }
+}
