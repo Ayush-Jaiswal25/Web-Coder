@@ -48,10 +48,17 @@
 @media (max-width: 415px){
   .heroBox1{
     margin-top: 4rem;
+    margin-left: 0.5em;
     height: 40%;
   }
+  .heroBox1-h3, .heroBox1-h1, .heroBox1-h4{
+    margin-left: 2rem !important;
+  }
+  .heroBox1-h3{
+    margin-top: 2.5rem;
+  }
   .heroBox1-img{
-    left: 2rem;
-    top: 3rem;
+    left: 12rem;
+    top: 1.5rem;
   }
 }

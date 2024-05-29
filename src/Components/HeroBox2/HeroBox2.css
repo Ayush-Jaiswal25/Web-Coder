@@ -25,7 +25,12 @@
 
 @media (max-width: 415px){
   .heroBox2{
+    margin-left: 0.5rem;
+    margin-top: 1.5rem;
     height: 30%;
-    width: 98%;
+    width: 96%;
+  }
+  .heroBox2-img{
+    height: 30vh;
   }
 }

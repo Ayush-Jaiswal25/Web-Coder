@@ -103,20 +103,23 @@
     width: 98%;
   }
   .SHLD{
+    margin-left: 0.5rem;
     height: 30%;
     width: 98%;
   }
   .SHLD-h2{
-    /* margin-top: 3rem; */
+    margin-top: 3rem;
   }
   .SHLD-button{
     margin-top: 2rem;
   }
   .sub-hero-left-down-right{
-    margin-left: 0rem;
     background-image: linear-gradient(200deg, black 60%,  aqua 150%);
   }
   .lower-hero-left{
     display: none;
+  }
+  .SHLD-h4{
+    margin-top: 3rem;
   }
 }
